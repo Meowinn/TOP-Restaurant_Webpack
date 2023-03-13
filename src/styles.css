@@ -10,9 +10,10 @@ body {
 }
 
 #backG {
-   padding-top: min(90px, 10%);
-   padding-right: min(380px, 10%);
-   padding-left: min(380px, 10%);
+   padding-top: min(120px, 100%);
+   padding-right: min(380px, 20%);
+   padding-left: min(380px, 20%);
+   padding-bottom: min(150px, 100%);
    text-align: right;
     
 }
@@ -93,7 +94,7 @@ ul {
 #menu {
  display: flex;
  justify-content: center;
- padding-top: 15px;
+ padding-top: 35px;
  background-image: none;
 }
 
@@ -112,7 +113,7 @@ ul {
 }
 
 .menuBtn {
-    padding: 20px 30px;
+    padding: 20px 30px 40px 30px;
     display: flex;
     justify-content: center;
     gap: 55px;
@@ -172,9 +173,7 @@ ul {
 .moreText {
     text-align: justify;
     color: white;
-    padding: 50px min(350px, 10%) 120px min(350px, 10%);
-
-    
+    padding: 50px min(350px, 10%) 120px min(350px, 10%); 
 }
 
 /* menu end */
