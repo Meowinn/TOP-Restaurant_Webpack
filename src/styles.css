@@ -1,0 +1,287 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url("./maxBG2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#backG {
+   padding-top: min(90px, 10%);
+   padding-right: min(380px, 10%);
+   padding-left: min(380px, 10%);
+   text-align: right;
+    
+}
+
+#topContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px min(50px, 10%);
+
+    background-color: black;
+    font-weight: 800;
+}
+
+.navbarCont {
+    display: flex;
+}
+
+#maxLogo {
+    width: min(200px, 100%);
+}
+
+ul {
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+#tabs {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: clamp(0.5rem, 3vw, 1.1rem);
+    font-weight: 800;
+    width: min(120px, 100%);
+    background-color: transparent;
+    border: none;
+}
+
+#tabs:hover {
+    cursor: pointer;
+    color: rgb(228, 143, 64);
+    font-size: 1.2rem;
+}
+
+/* backG */
+
+.descrip {
+    color: white;
+}
+
+.cursive {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+
+.greet,
+.greet2,
+.greet3 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2rem, 3vw, 4.2rem);
+}
+
+.greet4,
+.greet5 {
+    font-size: 1.5rem;
+}
+
+/* backG end */
+
+/* menu */
+#menuContainer {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("./bg_red.png");
+}
+
+#menu {
+ display: flex;
+ justify-content: center;
+ padding-top: 15px;
+ background-image: none;
+}
+
+#upperText {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: rgb(228, 143, 64);
+}
+
+.special {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: white;
+}
+
+.menuBtn {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+#mBtn {
+    padding: 5px 40px;
+    border: 2px solid rgb(228, 143, 64);
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    background-color: transparent;
+    font-size: 1.3rem;
+    color: white;
+}
+
+#mBtn:hover {
+    background-color: rgb(235, 189, 92);
+}
+
+#menuImgs {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    padding-bottom: 30px;
+}
+
+#foods {
+    width: min(500px, 50%);
+    overflow: hidden;
+}
+
+.bottomText {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: rgb(228, 143, 64);
+}
+
+.reserveText {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: white;
+}
+
+.bookText {
+    display:flex;
+    justify-content: center;
+    padding: 20px 45px;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.moreText {
+    text-align: justify;
+    color: white;
+    padding: 50px min(350px, 10%) 120px min(350px, 10%);
+
+    
+}
+
+/* menu end */
+
+/* contact css   */
+#contactContainer {
+    color: white;
+    background-image: url("./bg_red.png");
+}
+
+#upperContact {
+    height: 50%;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    grid-column: 1/3;
+    background-image: url('../src/pata.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+#upperText1 {
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+.upperText2 {
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgb(221, 209, 99) ;
+    opacity: 0.7;
+}
+
+#formDetails {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 200px;
+    
+}
+
+#details {
+    padding: 0 20px;
+    font-size: 1.2rem;
+}
+
+#form {
+    display: grid;
+    gap: 10px;
+    padding: 60px 0;
+    align-content: center;
+    
+}
+
+input[type=text] {
+    height: 30px;
+} 
+
+textarea {
+    grid-column: 1/3;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+#bookBtn {
+    border: 2px solid rgb(228, 143, 64);
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    background-color: transparent;
+    font-size: 1.3rem;
+    color: white;
+    padding: 20px;
+}
+
+#bookBtn:hover {
+    background-color: rgb(235, 189, 92);
+}
+
+/* contact end */
+
+#footer {
+    background-color: black;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+
+@media all and (max-width: 980px) {
+#formDetails {
+    flex-wrap: wrap;
+    gap: 0;
+}
+}
