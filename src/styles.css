@@ -21,8 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px min(50px, 10%);
-
+    padding: 8px min(50px, 10%);
     background-color: black;
     font-weight: 800;
 }
@@ -32,7 +31,7 @@ body {
 }
 
 #maxLogo {
-    width: min(200px, 100%);
+    width: min(150px, 100%);
 }
 
 ul {
